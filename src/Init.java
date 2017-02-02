@@ -142,7 +142,7 @@ public class Init extends JPanel implements  Runnable {
                 s.move();
                 this.repaint();
             } catch(Exception e){
-
+                System.out.println(e.getMessage());
             }
             try {
                 Thread.currentThread();
