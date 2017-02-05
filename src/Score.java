@@ -22,8 +22,8 @@ public class Score extends JFrame {
         puntuacion = new JLabel("0");
 
         ImageIcon corazon = new ImageIcon(getClass().getResource("/Snake/heart.png"));
-        ImageIcon corazon2 = new ImageIcon(getClass().getResource("/Snake/heart2.png"));
-        ImageIcon corazon3 = new ImageIcon(getClass().getResource("/Snake/heart3.png"));
+        ImageIcon corazon2 = new ImageIcon(getClass().getResource("/Snake/heart.png"));
+        ImageIcon corazon3 = new ImageIcon(getClass().getResource("/Snake/heart.png"));
 
         img1 = new JLabel(corazon);
         img2 = new JLabel(corazon2);

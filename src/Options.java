@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 /**
  * Created by dpMelian on 30/12/2016.
  */
-public class Options extends JFrame implements ActionListener{
+public class Options extends JFrame implements ActionListener {
     private JPanel panel1;
     private JRadioButton fácilRadioButton;
     private JRadioButton normalRadioButton;

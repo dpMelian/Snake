@@ -142,7 +142,10 @@ public class Init extends JPanel implements  Runnable {
                 s.move();
                 this.repaint();
             } catch(Exception e){
-                System.out.println(e.getMessage());
+                JOptionPane.showMessageDialog(this,
+                        "Error while running program.",
+                        "Error",
+                        JOptionPane.ERROR_MESSAGE);
             }
             try {
                 Thread.currentThread();
